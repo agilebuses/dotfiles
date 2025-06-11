@@ -7,7 +7,7 @@ To clone as a bare git repository:
 alias config='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
 
 echo ".dots" >> .gitignore
-git clone --bare <git-repo-url> $HOME/.dots
+git clone --bare https://github.com/agilebuses/dotfiles.git $HOME/.dots
 alias config='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
 config checkout
 config config --local status.showUntrackedFiles no
