@@ -90,6 +90,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Environment variables
 if [ -f ~/.bash_secret ]; then
     . ~/.bash_secret
 fi
