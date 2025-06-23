@@ -69,11 +69,6 @@ fi
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
-#alias ll='ls -l'
-#alias la='ls -A'
-#alias l='ls -CF'
-
 # Alias definitions.
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
@@ -100,4 +95,3 @@ if [ -f /usr/lib/mc/mc.sh ]; then
 fi
 
 export GPG_TTY=$(tty)
-alias config='/usr/bin/git --git-dir=/home/main/.cfg/ --work-tree=/home/main'
