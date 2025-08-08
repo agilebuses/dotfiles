@@ -85,12 +85,8 @@ if ! shopt -oq posix; then
 fi
 
 # Environment variables
-if [ -f ~/.bash_secret ]; then
-    . ~/.bash_secret
-fi
-
-if [ -f /usr/lib/mc/mc.sh ]; then
-    . /usr/lib/mc/mc.sh
+if [ -f ~/.bash_env ]; then
+    . ~/.bash_env
 fi
 
 export GPG_TTY=$(tty)
