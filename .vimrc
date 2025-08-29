@@ -17,3 +17,5 @@ call plug#end()
 colorscheme catppuccin_mocha
 
 let g:lightline = {'colorscheme': 'catppuccin_mocha'}
+
+map <C-s> :w<CR>
