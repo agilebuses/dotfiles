@@ -2,8 +2,8 @@
 -- 2026-02-09
 
 return {
-	"nvim-mini/mini.statusline",
-	opts = {
-		use_icons = false,
-	},
+    "nvim-mini/mini.statusline",
+    opts = {
+	use_icons = false,
+    },
 }
