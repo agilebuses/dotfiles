@@ -4,7 +4,7 @@
 vim.o.number = true
 vim.o.mouse = "a"
 vim.o.showmode = false
-vim.o.breakindent = tue
+vim.o.breakindent = true
 vim.o.ignorecase = true
 vim.o.smartcase = true
 vim.o.signcolumn = "yes"

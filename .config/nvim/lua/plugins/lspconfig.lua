@@ -1,3 +1,6 @@
+-- ~/.config/nvim/lua/plugins/lspconfig.lua
+-- 2026-02-09
+
 return {
 	"neovim/nvim-lspconfig",
 	dependencies = {

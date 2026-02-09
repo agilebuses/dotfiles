@@ -1,3 +1,6 @@
+-- ~/.config/nvim/lua/plugins/blink.lua
+-- 2026-02-09
+
 return {
 	"saghen/blink.cmp",
 	version = "1.*",
