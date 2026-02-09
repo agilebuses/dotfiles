@@ -1,4 +1,6 @@
-# ~/.bashrc 2026-07-25
+# ~/.bashrc 
+# 2025-07-25
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;

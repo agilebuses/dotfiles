@@ -1,4 +1,5 @@
-" ~/.vimrc 2025-07-25
+" ~/.vimrc 
+" 2025-07-25
 
 set number
 set relativenumber
