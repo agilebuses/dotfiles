@@ -2,6 +2,7 @@
 These are my dotfiles that I use for my Debian Linux system.
 ## Installation
 The latest stable version of Neovim is used to ensure compatibility with the listed plugins.
+
 To clone as a bare git repository:
 ``` bash
 echo ".dots" >> .gitignore
